@@ -2,66 +2,86 @@
     color: #434455;
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    font-family: "Montserrat", sans-serif;
     font-style: normal;
 }
-a {
+
+a{
 text-decoration: none;
 }
-ul {
+
+ul{
     list-style: none;
 }
 /*================ Header ===========================*/
+
+.header{
+    border-bottom: 1px solid #e7e9fc;
+    background: #FFFFFF;
+}
+
 .logo{
-    color: #4D5AE5;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
 }
+
 .logo-span{
-    color: #2E2F42;
-   
+    color: #2e2f42;
 }
+
 .navigation-list{
-    color: #2E2F42;
-    font-size: 16px;
     font-weight: 500;
+    font-size: 16px;    
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+    
 }
+
 .navigation-list-item{
-    color: #2E2F42;
+    color: #2e2f42;
 }
+
 .navigation-list-item:hover,
 .navigation-list-item:focus{
-    color: #404BBF;
+    color: #404bbf;
 }
+
+.address{
+    font-style: normal;
+}
+
 .address-list-item{
-    color: #434455;
+    line-height: 1.5;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
+
 .address-list-item:hover,
-.address-list-item:focus {
-    color: #404BBF;
+.address-list-item:focus{
+    color: #404bbf;
 }
+
 /* ============================== Title =========================*/
 .title{
-    background-color: #2E2F42;
+    background-color: #2e2f42;
 }
+
 .title-text{
-    color:  #FFFFFF;
+    color:  #ffffff;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+
 .title-button{
 font-family: "Roboto", sans-serif;
 color:  #FFFFFF;
@@ -72,59 +92,73 @@ letter-spacing: 0.04em;
 background-color: #4D5AE5;
 cursor: pointer;
 }
+
 .title-button:hover,
 .title-button:focus {
 background: #404BBF;
 }
+
 /* ============= Features ================= */
-.features-names{
-    color: #2E2F42;
+.features-list{
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .features-list-item-text{
     color: #434455;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 16px;    
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 /* ============================= Our team ======================= */
 .our-team{
     background: #F4F4FD;
 }
+
 .team-title{
-    color: #2E2F42;
+    color: #2e2f42;
     text-align: center;
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.1;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
 .team-list-item{
-    background: #FFFFFF;
+    background: #FFFFFF;    
 }
+
 .team-list-item{
     color:  #2E2F42;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
+.team-list-item-text{
+    font-style: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 /* =====================Portfolio======================= */
 .portfolio-title{
     color:  #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+
 .portfolio-list-item-name{
     color:  #2E2F42;
     font-size: 20px;
@@ -132,6 +166,7 @@ background: #404BBF;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .portfolio-list-item-text{
     color: #434455;
     font-size: 16px;
@@ -139,10 +174,26 @@ background: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 /* =====================Footer================ */
 .footer{
     background: #2E2F42;
 }
+
+.footer-logo{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+}
+
+.footer-logo-span{
+    color: #2e2f42;
+}
+
 .footer-text{
     color: #F4F4FD;
     font-size: 16px;
