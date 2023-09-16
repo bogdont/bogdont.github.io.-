@@ -1,4 +1,4 @@
-.body{
+body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
@@ -98,7 +98,7 @@ background: #404BBF;
 }
 
 /* ============= Features ================= */
-.features-list{
+.features-names{
     font-weight: 500;
     font-size: 20px; 
     line-height: 1.2;
@@ -119,12 +119,12 @@ background: #404BBF;
 }
 
 .team-title{
-    color: #2e2f42;
-    text-align: center;
     font-size: 36px;
     line-height: 1.1;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .team-list-item{
@@ -148,30 +148,30 @@ background: #404BBF;
 }
 
 /* =====================Portfolio======================= */
-.portfolio-title{
-    color:  #2E2F42;
-    text-align: center;
+.portfolio-title{ 
     font-size: 36px;
     line-height: 1.11;
-    font-weight: 700;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color:  #2E2F42;
 }
 
 .portfolio-list-item-name{
-    color:  #2E2F42;
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color:  #2E2F42;
 }
+    
 
 .portfolio-list-item-text{
-    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /* =====================Footer================ */
